@@ -1,0 +1,80 @@
+List Methods:
+
+lst.append(x)          # Adds item x to the end of the list.
+lst.extend(iterable)   # Extends the list by appending elements from iterable.
+lst.insert(i, x)       # Inserts item x at position i.
+lst.remove(x)          # Removes the first occurrence of item x.
+lst.pop([i])           # Removes and returns the item at position i (last item if i is not specified).
+lst.clear()            # Removes all items from the list.
+lst.index(x[, start[, end]])  # Returns the index of the first occurrence of item x.
+lst.count(x)           # Returns the count of item x in the list.
+lst.sort(key=None, reverse=False)  # Sorts the list in place.
+lst.reverse()          # Reverses the list in place.
+
+len(lst)  # Returns the number of items in the list.
+min(lst)  # Returns the smallest item in the list.
+max(lst)  # Returns the largest item in the list.
+sum(lst)  # Returns the sum of all items in the list.
+
+
+String Methods:
+
+s.lower()               # Converts all characters to lowercase.
+s.upper()               # Converts all characters to uppercase.
+s.strip()               # Removes leading and trailing whitespace.
+s.split([sep[, maxsplit]])  # Splits the string into a list.
+''.join(iterable)       # Joins elements of an iterable into a string.
+s.replace(old, new[, count])  # Replaces occurrences of old with new.
+s.find(sub[, start[, end]])   # Returns the lowest index of the substring.
+s.count(sub)            # Returns the number of occurrences of sub.
+s.startswith(prefix[, start[, end]])  # Checks if the string starts with prefix.
+s.endswith(suffix[, start[, end]])    # Checks if the string ends with suffix.
+
+len(s)  # Returns the length of the string.
+min(s)  # Returns the smallest character in the string.
+max(s)  # Returns the largest character in the string.
+
+
+Tuple Methods:
+
+t.count(x)              # Returns the number of occurrences of x in the tuple.
+t.index(x[, start[, end]])  # Returns the index of the first occurrence of x.
+
+len(t)  # Returns the number of items in the tuple.
+min(t)  # Returns the smallest item in the tuple.
+max(t)  # Returns the largest item in the tuple.
+
+
+Set Methods:
+
+s.add(x)                # Adds element x to the set.
+s.remove(x)             # Removes element x from the set (raises KeyError if not found).
+s.discard(x)            # Removes element x from the set (does not raise an error).
+s.pop()                 # Removes and returns an arbitrary element from the set.
+s.clear()               # Removes all elements from the set.
+s.union(other)          # Returns the union of sets.
+s.intersection(other)    # Returns the intersection of sets.
+s.difference(other)      # Returns the difference between sets.
+s.issubset(other)        # Returns True if set is a subset of another set.
+s.issuperset(other)      # Returns True if set is a superset of another set.
+
+len(s)  # Returns the number of items in the set.
+min(s)  # Returns the smallest item in the set.
+max(s)  # Returns the largest item in the set.
+
+
+
+Dictionary Methods:
+
+d.get(key[, default])            # Returns the value for key if key is in the dictionary, else default.
+d.keys()                         # Returns a view of keys in the dictionary.
+d.values()                       # Returns a view of values in the dictionary.
+d.items()                        # Returns a view of key-value pairs in the dictionary.
+d.update([other])                # Updates the dictionary with key-value pairs from other.
+d.pop(key[, default])            # Removes key and returns its value.
+d.popitem()                      # Removes and returns the last inserted key-value pair.
+d.clear()                        # Removes all key-value pairs from the dictionary.
+
+len(d)  # Returns the number of key-value pairs in the dictionary.
+min(d)  # Returns the smallest key in the dictionary.
+max(d)  # Returns the largest key in the dictionary.
